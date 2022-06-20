@@ -48,9 +48,8 @@ module.exports = {
     new CleanWebpackPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      title: "Webpack & React",
+      title: "Webpack React Template",
       template: "./src/index.html",
-      favicon: "./public/favicon.ico",
     }),
     new MiniCssExtractPlugin({
       filename: production ? "[name].[contenthash].css" : "[name].css",

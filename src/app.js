@@ -9,9 +9,11 @@ const onClickEvent = (e) => {
 const App = () => {
   return (
     <div className={styles.content}>
-      <div className={styles.label}>Create React App Without CRA😊</div>
+      <div className={styles.label}>
+        Custom Webpack React Template YOU DID IT AAAAAAAAAAAAAA
+      </div>
       <button className={styles.btn} onClick={onClickEvent}>
-        Click Me 😎
+        Click me
       </button>
     </div>
   );
